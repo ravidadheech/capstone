@@ -57,6 +57,78 @@
       "summary": "Logged an early 6:30 AM wake-up to the habit tracker.",
       "tags": ["health", "habits"],
       "linked_goal_ids": ["g5"]
+    },
+    {
+      "id": "6f1f9eef-dd2d-4440-86f7-745a1f8ab253",
+      "title": "Audio clip — personal finance and wealth-building strategies",
+      "date": "2026-07-04T21:11:00-04:00",
+      "category": "finance",
+      "summary": "Logged food (bindi ki sabzi). Main content: a YouTube video argument that car payments are the biggest wealth killer, citing record US auto loan debt ($1.62T in 2025) and how financed lifestyle-image purchases erode the ability to build wealth.",
+      "tags": ["finance", "wealth-growth", "debt", "food-log"],
+      "linked_goal_ids": ["g3"]
+    },
+    {
+      "id": "dd0bcea9-dbd0-4540-8c38-3af0fe0c7551",
+      "title": "Short recording",
+      "date": "2026-07-04T23:10:00-04:00",
+      "category": "health",
+      "summary": "Logged two food entries (roasted salted peanuts, 34g and 30g). Remainder of the recording was background listening to POJK protest news commentary, not an actionable log item.",
+      "tags": ["food-log", "habits", "news"],
+      "linked_goal_ids": ["g5"]
+    },
+    {
+      "id": "fae05bd4-d8f2-47c2-8e73-0325f19e0c6b",
+      "title": "Personal check-in — coffee, job search, and home projects",
+      "date": "2026-07-05T08:49:00-04:00",
+      "category": "career",
+      "summary": "Logged protein coffee and breakfast via Jarvis. Covered job-search status (two interviews/week, EMID exam prep for Aug 19), tech setup for an upcoming test, family travel updates, and garden bed plans.",
+      "tags": ["job-search", "exam-prep", "food-log", "gardening"],
+      "linked_goal_ids": ["g5"]
+    },
+    {
+      "id": "96fad448-7f58-48cf-8d8e-889b5780c818",
+      "title": "Short recording",
+      "date": "2026-07-05T13:01:00-04:00",
+      "category": "personal",
+      "summary": "Mostly a meal chat and an overheard Bollywood actress interview. Brief mention of the \"Jarvis / OpenClaw\" project and a question about consolidating related discussions into one project thread.",
+      "tags": ["jarvis-automation", "personal", "media"],
+      "linked_goal_ids": ["g4"]
+    },
+    {
+      "id": "f4a4cfc5-6154-4aec-b67a-e2b9b2e79947",
+      "title": "Short recording",
+      "date": "2026-07-05T14:24:00-04:00",
+      "category": "finance",
+      "summary": "Logged food (protein drink, baingan/bhindi/paneer sabzi). Financial planning questions: $2M retirement goal by age 45, priority order (emergency fund, then 22% credit card debt, then retirement contributions), and a request to set up a financial planner agent using all available local files. Also covered a lavender gardening project and a few errands.",
+      "tags": ["finance", "retirement-planning", "financial-planner", "food-log", "gardening"],
+      "linked_goal_ids": ["g1", "g3"]
+    },
+    {
+      "id": "14c3045a-62b6-4cf9-bc51-fd49483b227e",
+      "title": "Creative brainstorming session",
+      "date": "2026-07-05T15:54:00-04:00",
+      "category": "finance",
+      "summary": "Mostly background noise with no clear conversation, except one fragment: a question about investing $25,000 in a Canadian margin account on Wealthsimple using index funds.",
+      "tags": ["finance", "investing", "index-funds"],
+      "linked_goal_ids": ["g3"]
+    },
+    {
+      "id": "8e305d1e-6a04-49ff-8e29-e83e56f56fb1",
+      "title": "New note",
+      "date": "2026-07-05T19:34:00-04:00",
+      "category": "other",
+      "summary": "No summary available — recording had no discernible content to log.",
+      "tags": ["uncategorized"],
+      "linked_goal_ids": []
+    },
+    {
+      "id": "d3760758-2b54-47c3-b471-be789a653544",
+      "title": "New note",
+      "date": "2026-07-06T00:04:00-04:00",
+      "category": "health",
+      "summary": "Brief voice memo logging 130g of Greek yogurt to the food log.",
+      "tags": ["food-log", "habits"],
+      "linked_goal_ids": ["g5"]
     }
   ]
 }

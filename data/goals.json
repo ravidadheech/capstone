@@ -14,7 +14,8 @@
       "tags": ["ai-agents", "goals-agent", "financial-planner", "multi-agent"],
       "linked_activity_ids": [
         "769aefcf-2e82-40cb-ac80-9db2d12ad26b",
-        "8990cda9-522c-41db-8f84-d0e39106a475"
+        "8990cda9-522c-41db-8f84-d0e39106a475",
+        "f4a4cfc5-6154-4aec-b67a-e2b9b2e79947"
       ],
       "notes": []
     },
@@ -41,7 +42,12 @@
       "source": "granola:abf43ea8-2b4a-4955-a04c-835e7d94bc06",
       "target_date": null,
       "tags": ["finance", "wealth-growth", "investing", "growth-method"],
-      "linked_activity_ids": ["abf43ea8-2b4a-4955-a04c-835e7d94bc06"],
+      "linked_activity_ids": [
+        "abf43ea8-2b4a-4955-a04c-835e7d94bc06",
+        "6f1f9eef-dd2d-4440-86f7-745a1f8ab253",
+        "f4a4cfc5-6154-4aec-b67a-e2b9b2e79947",
+        "14c3045a-62b6-4cf9-bc51-fd49483b227e"
+      ],
       "notes": []
     },
     {
@@ -54,7 +60,10 @@
       "source": "granola:cac407d7-6195-4a52-b559-0be3984b658b",
       "target_date": null,
       "tags": ["jarvis-automation", "activities-sync", "dedup"],
-      "linked_activity_ids": ["cac407d7-6195-4a52-b559-0be3984b658b"],
+      "linked_activity_ids": [
+        "cac407d7-6195-4a52-b559-0be3984b658b",
+        "96fad448-7f58-48cf-8d8e-889b5780c818"
+      ],
       "notes": []
     },
     {
@@ -69,7 +78,10 @@
       "tags": ["health", "habits", "food-log"],
       "linked_activity_ids": [
         "e7216d69-4724-4009-b5c2-477b631968bf",
-        "01d6e5ff-a050-4eab-a63a-e55350c189f5"
+        "01d6e5ff-a050-4eab-a63a-e55350c189f5",
+        "dd0bcea9-dbd0-4540-8c38-3af0fe0c7551",
+        "fae05bd4-d8f2-47c2-8e73-0325f19e0c6b",
+        "d3760758-2b54-47c3-b471-be789a653544"
       ],
       "notes": []
     }
