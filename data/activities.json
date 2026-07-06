@@ -1,0 +1,62 @@
+{
+  "$schema_notes": "Activities dataset fed hourly from Granola meeting notes (voice logs with Jarvis). Each activity id is the Granola meeting UUID, which makes dedup on sync trivial: skip any meeting id already present here. See CLAUDE.md and the hourly sync trigger for the sync + linking process.",
+  "source": "granola",
+  "last_synced_at": "2026-07-06T06:50:00-04:00",
+  "last_synced_meeting_id": "e7216d69-4724-4009-b5c2-477b631968bf",
+  "activities": [
+    {
+      "id": "cac407d7-6195-4a52-b559-0be3984b658b",
+      "title": "Workflow consolidation, task deduplication, and Jarvis automation setup",
+      "date": "2026-07-03T10:51:00-04:00",
+      "category": "jarvis-automation",
+      "summary": "Specified the Jarvis hourly sync automation rules: dedupe against already-synced meetings, and detect 'Jarvis'/'Okay Jarvis' call-outs (~200 chars around the mention) as the trigger for actionable logging, excluding incidental food mentions. Also covered task/workflow deduplication logic and a mortgage refinancing confirmation.",
+      "tags": ["jarvis-automation", "activities-sync", "dedup", "workflow"],
+      "linked_goal_ids": ["g4"]
+    },
+    {
+      "id": "8990cda9-522c-41db-8f84-d0e39106a475",
+      "title": "Building personal AI agents — thinkpi.ai dataset and research storage",
+      "date": "2026-07-04T19:37:00-04:00",
+      "category": "ai-agents-development",
+      "summary": "Scoped a thinkpi.ai research agent that ingests ideas/YouTube videos and stores them into a running knowledge base dataset, plus tabled a second agent (syncpi.ai) for later. Core pattern: receive input, store to dataset, build over time.",
+      "tags": ["ai-agents", "research-pipeline", "thinkpi.ai"],
+      "linked_goal_ids": ["g1"]
+    },
+    {
+      "id": "769aefcf-2e82-40cb-ac80-9db2d12ad26b",
+      "title": "Activity log — yard work and YouTube script extraction with Jarvis",
+      "date": "2026-07-05T12:03:00-04:00",
+      "category": "ai-agents-development",
+      "summary": "2 hours of yard work logged. Jarvis's YouTube caption scraping is blocked by YouTube; need a reliable extraction method for the financial planner agent. Confirmed plan to build both a financial planner agent and a goals agent as part of a multi-agent system that improves over time.",
+      "tags": ["yard-work", "youtube-extraction", "ai-agents", "financial-planner"],
+      "linked_goal_ids": ["g1", "g2"]
+    },
+    {
+      "id": "01d6e5ff-a050-4eab-a63a-e55350c189f5",
+      "title": "Personal food log and habit tracking with Jarvis",
+      "date": "2026-07-05T18:21:00-04:00",
+      "category": "health",
+      "summary": "Logged food intake (peanuts, walnuts, paneer masala sabzi) and vitamins. Also discussed Udaipur vs. Bhilwara property investment for Airbnb/rental potential.",
+      "tags": ["food-log", "habits", "real-estate"],
+      "linked_goal_ids": ["g5"]
+    },
+    {
+      "id": "abf43ea8-2b4a-4955-a04c-835e7d94bc06",
+      "title": "Wealth growth after 100k",
+      "date": "2026-07-05T17:49:00-04:00",
+      "category": "finance",
+      "summary": "Walked through why $100k is the critical compounding milestone and the GROWTH method (Gain control, Root investments, Optimize taxes, Weed out debts, Tap into income streams, Heightened discipline) for accelerating toward it.",
+      "tags": ["finance", "wealth-growth", "investing", "growth-method"],
+      "linked_goal_ids": ["g3"]
+    },
+    {
+      "id": "e7216d69-4724-4009-b5c2-477b631968bf",
+      "title": "Morning habit check-in at 06:30",
+      "date": "2026-07-06T06:50:00-04:00",
+      "category": "health",
+      "summary": "Logged an early 6:30 AM wake-up to the habit tracker.",
+      "tags": ["health", "habits"],
+      "linked_goal_ids": ["g5"]
+    }
+  ]
+}

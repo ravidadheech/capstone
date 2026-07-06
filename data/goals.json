@@ -1,0 +1,77 @@
+{
+  "$schema_notes": "Goals dataset managed by the Goals agent (.claude/agents/goals.md). Never delete a goal; change its status instead. IDs are stable strings 'g<N>' assigned at creation and never reused.",
+  "next_id": 6,
+  "goals": [
+    {
+      "id": "g1",
+      "title": "Build the Goals + Financial Planner multi-agent system",
+      "description": "Design a multi-agent system where a Goals agent and a Financial Planner agent (and future agents) interact, bootstrap, and improve over time.",
+      "category": "ai-agents-development",
+      "status": "active",
+      "created_at": "2026-07-06T00:00:00-04:00",
+      "source": "granola:769aefcf-2e82-40cb-ac80-9db2d12ad26b",
+      "target_date": null,
+      "tags": ["ai-agents", "goals-agent", "financial-planner", "multi-agent"],
+      "linked_activity_ids": [
+        "769aefcf-2e82-40cb-ac80-9db2d12ad26b",
+        "8990cda9-522c-41db-8f84-d0e39106a475"
+      ],
+      "notes": []
+    },
+    {
+      "id": "g2",
+      "title": "Get reliable YouTube content extraction working for Jarvis",
+      "description": "Current caption/transcript scraping approach gets blocked by YouTube. Need a working pipeline to feed video content into the financial planner agent and other research workflows.",
+      "category": "jarvis-automation",
+      "status": "active",
+      "created_at": "2026-07-06T00:00:00-04:00",
+      "source": "granola:769aefcf-2e82-40cb-ac80-9db2d12ad26b",
+      "target_date": null,
+      "tags": ["youtube-extraction", "jarvis-automation", "research-pipeline"],
+      "linked_activity_ids": ["769aefcf-2e82-40cb-ac80-9db2d12ad26b"],
+      "notes": []
+    },
+    {
+      "id": "g3",
+      "title": "Grow investable net worth past the $100k compounding threshold",
+      "description": "Using the GROWTH method (Gain control, Root investments, Optimize taxes, Weed out debts, Tap into income streams, Heightened discipline) to reach $100k invested in a low-cost S&P 500 index fund as fast as possible, since compounding accelerates sharply after that point.",
+      "category": "finance",
+      "status": "active",
+      "created_at": "2026-07-06T00:00:00-04:00",
+      "source": "granola:abf43ea8-2b4a-4955-a04c-835e7d94bc06",
+      "target_date": null,
+      "tags": ["finance", "wealth-growth", "investing", "growth-method"],
+      "linked_activity_ids": ["abf43ea8-2b4a-4955-a04c-835e7d94bc06"],
+      "notes": []
+    },
+    {
+      "id": "g4",
+      "title": "Harden the Jarvis hourly sync pipeline (dedupe + trigger detection)",
+      "description": "Hard-code a dedup check so hourly sync only ingests meetings not yet synced, and detect 'Jarvis' / 'Okay Jarvis' call-outs (scanning ~200 chars around the mention) as the signal for actionable logging instructions (food log, habit log, etc.), excluding incidental mentions.",
+      "category": "jarvis-automation",
+      "status": "active",
+      "created_at": "2026-07-06T00:00:00-04:00",
+      "source": "granola:cac407d7-6195-4a52-b559-0be3984b658b",
+      "target_date": null,
+      "tags": ["jarvis-automation", "activities-sync", "dedup"],
+      "linked_activity_ids": ["cac407d7-6195-4a52-b559-0be3984b658b"],
+      "notes": []
+    },
+    {
+      "id": "g5",
+      "title": "Keep up consistent daily habit tracking",
+      "description": "Log wake-up time, vitamins, and food intake consistently via Jarvis check-ins.",
+      "category": "health",
+      "status": "active",
+      "created_at": "2026-07-06T00:00:00-04:00",
+      "source": "granola:e7216d69-4724-4009-b5c2-477b631968bf",
+      "target_date": null,
+      "tags": ["health", "habits", "food-log"],
+      "linked_activity_ids": [
+        "e7216d69-4724-4009-b5c2-477b631968bf",
+        "01d6e5ff-a050-4eab-a63a-e55350c189f5"
+      ],
+      "notes": []
+    }
+  ]
+}
