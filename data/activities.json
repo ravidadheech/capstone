@@ -1,8 +1,8 @@
 {
   "$schema_notes": "Activities dataset fed hourly from Granola meeting notes (voice logs with Jarvis). Each activity id is the Granola meeting UUID, which makes dedup on sync trivial: skip any meeting id already present here. See CLAUDE.md and the hourly sync trigger for the sync + linking process.",
   "source": "granola",
-  "last_synced_at": "2026-07-06T12:53:00-04:00",
-  "last_synced_meeting_id": "5fe57ed3-67a3-49db-b048-4c2692b3353d",
+  "last_synced_at": "2026-07-06T13:18:00-04:00",
+  "last_synced_meeting_id": "c6915d08-5ad6-463d-86cb-0b1704402b03",
   "activities": [
     {
       "id": "cac407d7-6195-4a52-b559-0be3984b658b",
@@ -161,6 +161,15 @@
       "id": "5fe57ed3-67a3-49db-b048-4c2692b3353d",
       "title": "New note",
       "date": "2026-07-06T12:53:00-04:00",
+      "category": "other",
+      "summary": "No summary available — recording had no discernible content to log.",
+      "tags": ["uncategorized"],
+      "linked_goal_ids": []
+    },
+    {
+      "id": "c6915d08-5ad6-463d-86cb-0b1704402b03",
+      "title": "New note",
+      "date": "2026-07-06T13:18:00-04:00",
       "category": "other",
       "summary": "No summary available — recording had no discernible content to log.",
       "tags": ["uncategorized"],
