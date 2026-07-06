@@ -1,8 +1,8 @@
 {
   "$schema_notes": "Activities dataset fed hourly from Granola meeting notes (voice logs with Jarvis). Each activity id is the Granola meeting UUID, which makes dedup on sync trivial: skip any meeting id already present here. See CLAUDE.md and the hourly sync trigger for the sync + linking process.",
   "source": "granola",
-  "last_synced_at": "2026-07-06T06:50:00-04:00",
-  "last_synced_meeting_id": "e7216d69-4724-4009-b5c2-477b631968bf",
+  "last_synced_at": "2026-07-06T09:48:00-04:00",
+  "last_synced_meeting_id": "d6e533cd-ea17-498e-ae9a-14d23a00cd43",
   "activities": [
     {
       "id": "cac407d7-6195-4a52-b559-0be3984b658b",
@@ -129,6 +129,33 @@
       "summary": "Brief voice memo logging 130g of Greek yogurt to the food log.",
       "tags": ["food-log", "habits"],
       "linked_goal_ids": ["g5"]
+    },
+    {
+      "id": "25baefd1-2663-49d3-8346-38b9bb0a20f2",
+      "title": "Personal finance reflections",
+      "date": "2026-07-06T07:42:00-04:00",
+      "category": "finance",
+      "summary": "Logged morning habits (yoga, plank, protein coffee) and a gym session. Set financial goals: build a $100,000 investment corpus, optimize the portfolio, and work toward financial independence (FIRE). Broader reflection on money/happiness/independence, plus an explicit request to create a Goals agent that logs goals on request and tracks them against daily activities, embedding a Hindi poem and a 'sense of urgency, massive action' philosophy as core instructions.",
+      "tags": ["finance", "wealth-growth", "fire", "habits", "goals-agent"],
+      "linked_goal_ids": ["g3", "g5"]
+    },
+    {
+      "id": "51bce8e8-122e-4272-9873-530a6f7ab955",
+      "title": "Short recording",
+      "date": "2026-07-06T09:14:00-04:00",
+      "category": "jarvis-automation",
+      "summary": "Requested building Jarvis into a 24/7 interactive chatbot that activates on a wake word ('Okay Jarvis' / 'Hey Jarvis'). Remainder covered family health updates (Dimpy's and Papa's surgeries, an upcoming vision procedure).",
+      "tags": ["jarvis-chatbot", "wake-word", "family-health"],
+      "linked_goal_ids": []
+    },
+    {
+      "id": "d6e533cd-ea17-498e-ae9a-14d23a00cd43",
+      "title": "New note",
+      "date": "2026-07-06T09:48:00-04:00",
+      "category": "other",
+      "summary": "No summary available — recording had no discernible content to log.",
+      "tags": ["uncategorized"],
+      "linked_goal_ids": []
     }
   ]
 }

@@ -17,7 +17,12 @@
         "8990cda9-522c-41db-8f84-d0e39106a475",
         "f4a4cfc5-6154-4aec-b67a-e2b9b2e79947"
       ],
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-07-06T07:42:00-04:00",
+          "text": "Granola note 25baefd1 asked to embed a Hindi poem and a 'sense of urgency, massive action' philosophy into this Goals agent's core instructions. Poem text wasn't captured in the meeting summary — needs follow-up (get the full transcript or ask Ravi directly) before adding it to .claude/agents/goals.md."
+        }
+      ]
     },
     {
       "id": "g2",
@@ -46,7 +51,8 @@
         "abf43ea8-2b4a-4955-a04c-835e7d94bc06",
         "6f1f9eef-dd2d-4440-86f7-745a1f8ab253",
         "f4a4cfc5-6154-4aec-b67a-e2b9b2e79947",
-        "14c3045a-62b6-4cf9-bc51-fd49483b227e"
+        "14c3045a-62b6-4cf9-bc51-fd49483b227e",
+        "25baefd1-2663-49d3-8346-38b9bb0a20f2"
       ],
       "notes": []
     },
@@ -81,7 +87,8 @@
         "01d6e5ff-a050-4eab-a63a-e55350c189f5",
         "dd0bcea9-dbd0-4540-8c38-3af0fe0c7551",
         "fae05bd4-d8f2-47c2-8e73-0325f19e0c6b",
-        "d3760758-2b54-47c3-b471-be789a653544"
+        "d3760758-2b54-47c3-b471-be789a653544",
+        "25baefd1-2663-49d3-8346-38b9bb0a20f2"
       ],
       "notes": []
     }
