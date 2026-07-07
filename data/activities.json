@@ -1,8 +1,8 @@
 {
   "$schema_notes": "Activities dataset fed hourly from Granola meeting notes (voice logs with Jarvis). Each activity id is the Granola meeting UUID, which makes dedup on sync trivial: skip any meeting id already present here. See CLAUDE.md and the hourly sync trigger for the sync + linking process.",
   "source": "granola",
-  "last_synced_at": "2026-07-07T10:01:00-04:00",
-  "last_synced_meeting_id": "a37cced0-1ae0-4ca0-8e15-5c55d2cb2106",
+  "last_synced_at": "2026-07-07T12:58:00-04:00",
+  "last_synced_meeting_id": "ffcc39a6-f46c-418f-a0c9-c9462bbac059",
   "activities": [
     {
       "id": "cac407d7-6195-4a52-b559-0be3984b658b",
@@ -197,6 +197,24 @@
       "id": "a37cced0-1ae0-4ca0-8e15-5c55d2cb2106",
       "title": "New note",
       "date": "2026-07-07T10:01:00-04:00",
+      "category": "other",
+      "summary": "No summary available — recording had no discernible content to log.",
+      "tags": ["uncategorized"],
+      "linked_goal_ids": []
+    },
+    {
+      "id": "c51a6461-01ed-445e-a9dc-157cbe094f9f",
+      "title": "Daily health habits and vitamin stack review with Jarvis",
+      "date": "2026-07-07T11:46:00-04:00",
+      "category": "health",
+      "summary": "Logged morning habits (6AM wake-up, yoga, cold shower, run, Hanuman Chalisa streak, vitamins) and documented the daily vitamin stack. Jarvis flagged gaps (omega-3s, electrolytes) and logged hydration and grocery notes.",
+      "tags": ["health", "habits", "vitamins"],
+      "linked_goal_ids": ["g5"]
+    },
+    {
+      "id": "ffcc39a6-f46c-418f-a0c9-c9462bbac059",
+      "title": "New note",
+      "date": "2026-07-07T12:58:00-04:00",
       "category": "other",
       "summary": "No summary available — recording had no discernible content to log.",
       "tags": ["uncategorized"],
